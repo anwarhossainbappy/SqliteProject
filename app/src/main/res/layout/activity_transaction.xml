@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Transaction">
+
+    <Button
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:id="@+id/monthlyfee"
+        android:text="মাসিক ফি"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:id="@+id/borrow"
+        android:text="ঋণ প্রকল্প"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
